@@ -4,13 +4,6 @@
 
 This project performs sentiment analysis on movie reviews from the IMDB dataset using machine learning techniques. The goal is to classify movie reviews as either positive or negative based on their text content.
 
-## Dataset
-
-- **Source**: IMDB Dataset containing 50,000 movie reviews
-- **Size**: 50,000 reviews (25,000 positive, 25,000 negative)  
-- **Format**: CSV file with 'review' and 'sentiment' columns
-- **Distribution**: Balanced dataset with equal positive and negative samples
-
 ## Data Preprocessing
 
 ### Text Cleaning Steps:
@@ -63,11 +56,6 @@ Three classification algorithms were implemented and compared:
 - **Review Length**: Positive reviews tend to be slightly longer on average
 - **Word Distribution**: Shows clear patterns between sentiment classes
 
-### Data Quality:
-- Clean, balanced dataset with minimal preprocessing issues
-- Effective feature extraction using TF-IDF
-- Good model generalization on test set (30% split)
-
 ## Technical Implementation
 
 ### Libraries Used:
@@ -80,14 +68,10 @@ Three classification algorithms were implemented and compared:
 
 ### Model Training:
 - **Train/Test Split**: 70% training, 30% testing
-- **Feature Vector Size**: 221,707 TF-IDF features
 - **Cross-validation**: Consistent performance across models
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, Confusion Matrix
 
-## Results Summary
+## Results
 
-All three models achieved strong performance with accuracies between 86-89%. The LinearSVC model performed best overall, while Logistic Regression provided the most interpretable and balanced results. The high accuracy scores indicate that sentiment analysis on movie reviews is well-suited for traditional machine learning approaches with proper text preprocessing.
+All three models achieved strong performance with accuracies between 86-89%. The LinearSVC model performed best overall, while Logistic Regression provided the most interpretable and balanced results.
 
-## Usage
-
-This implementation provides a solid foundation for sentiment analysis tasks and can be adapted for other text classification problems by modifying the preprocessing pipeline and feature extraction methods.
