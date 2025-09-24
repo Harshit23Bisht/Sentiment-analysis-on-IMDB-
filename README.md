@@ -52,9 +52,7 @@ Three classification algorithms were implemented and compared:
 
 ### Text Analysis Insights:
 - **Positive Reviews**: Common words include "film", "movie", "good", "great", "story"
-- **Negative Reviews**: More varied vocabulary with complaint-focused language
 - **Review Length**: Positive reviews tend to be slightly longer on average
-- **Word Distribution**: Shows clear patterns between sentiment classes
 
 ## Technical Implementation
 
